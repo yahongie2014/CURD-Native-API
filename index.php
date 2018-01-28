@@ -22,7 +22,6 @@
         <a href="empty.php"> <button class="btn btn-danger navbar-btn">Empty Database</button></a>
         <a href="api.php/address_book" target="_blank"> <button class="btn btn-warning navbar-btn">Access Api</button></a>
     </div>
-
 </nav>
 <div class="container">
 <div class="row">
