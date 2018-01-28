@@ -1,0 +1,13 @@
+# Use PHP7.1 as default
+AddHandler application/x-httpd-php56 .php
+# BEGIN orange
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+ErrorDocument 404 http://coder79.me/404.html
+# END orange
