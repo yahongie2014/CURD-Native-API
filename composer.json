@@ -1,5 +1,5 @@
 {
-    "name": "CURD/Native",
+    "name": "curd/native",
     "description": "Native Dashboard.",
     "keywords": ["Native", "PHP"],
     "license": "MIT",
