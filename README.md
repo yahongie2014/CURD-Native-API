@@ -19,8 +19,7 @@
 
 http://127.0.1.1:8000
 #OR
-https://curd-native.herokuapp.com
-
+http://system.serinc.tech/Native/index.php
 >Thank u
 
 >License
